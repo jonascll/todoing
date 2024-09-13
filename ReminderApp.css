@@ -1,0 +1,140 @@
+
+
+.header{
+    display: flex;
+    justify-content: right;
+    -webkit-app-region: drag;
+    background: rgba(1,1,1,0.6);
+    position: relative;
+   
+}
+
+.icon{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    -webkit-app-region: no-drag;
+}
+.icon:hover{
+    cursor:pointer;
+}
+body{
+    background: rgba(1,1,1,0.5);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainFlex{
+display: flex;
+flex-direction: column;
+
+}
+.addReminderElement{
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: none;      
+    -moz-user-select: none;      
+    -ms-user-select: none;
+    user-select: none;
+}
+.addReminderElement:hover{
+   
+    background-color: rgba(25, 25, 25, 0.6);
+    
+}
+
+
+.addReminderElement:active{
+   
+    background-color: rgba(49, 49, 49, 0.6);
+    
+}
+.reminderPlus{
+font-size: 30px;
+color: rgba(245, 245, 220, 0.5);
+
+}
+.reminderText{
+    margin-left: auto;
+    font-size: 30px;
+color: rgba(245, 245, 220, 0.5);
+}
+.reminderElement{
+    background-color: rgba(25, 25, 25, 0.6);
+    border-bottom: 2px solid rgba(1,1,1,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;      
+    -moz-user-select: none;      
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.deleteIcon{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+
+.input
+{
+    background-color: rgba(25, 25, 25, 0.6);
+    font-size: 30px;
+    text-align: center;
+    color: rgba(193, 193, 193, 1);
+}
+
+.iconsFlex{
+    display: inline;
+    margin-left: auto;
+}
+
+.datePicker{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(245, 245, 220, 0.5);
+    
+}
+
+.dueToday{
+    background-color: rgba(138, 0, 3, 0.5);
+}
+
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(25, 25, 25, 0.8);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(25, 25, 25, 0.6);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(1,1,1,0.6);
+  }
+
+  .tooltip{
+    position:absolute;
+    margin:5px;
+    width:200px;
+    height:100px;
+    border:1px solid black;
+    display:none;
+}

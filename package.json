@@ -1,0 +1,20 @@
+{
+  "name": "Sticky_note",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "ReminderApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ReminderApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.9",
+    "electron-tooltip": "^1.1.5"
+  },
+  "dependencies": {
+    "js-datepicker": "^5.18.0",
+    "mongodb": "^4.8.0"
+  }
+}
